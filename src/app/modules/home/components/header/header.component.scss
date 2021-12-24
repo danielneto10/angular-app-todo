@@ -1,0 +1,9 @@
+@import "src/styles/variables.scss";
+
+h1 {
+  padding: 15px 0;
+  background-color: $primary-color;
+  text-align: center;
+  font-size: 18px;
+  color: $secondary-text-color;
+}

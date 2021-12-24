@@ -1,0 +1,5 @@
+<input type="text" class="form-control w-75 text-center p-3" placeholder="Digite sua nova tarefa aqui"
+  (keyup.enter)="addItem()" [(ngModel)]="task">
+<button mat-fab color="primary" class="position-absolute" (click)="addItem()" [disabled]="!task">
+  <mat-icon>add</mat-icon>
+</button>

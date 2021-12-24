@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+
+// @import "@angular/material/theming";
+// @include mat-core();
+
+// $my-primary: mat-palette($mat-deep-purple, 600);
+// $my-secundary: mat-palette($mat-indigo, 100);
+// $my-warn: mat-palette($mat-red);
+
+// $my-theme: mat-light-theme($my-primary, $my-secundary, $my-warn);
+// @include angular-material-theme($my-theme);
+
+// @import "./styles/styles-bootstrap.scss";
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "./styles/variables.scss";
+
+html,
+body {
+  height: 100%;
+  background-color: $primary-background-color;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
